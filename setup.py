@@ -16,7 +16,7 @@ setuptools.setup(
   url = 'https://github.com/martinbenes1996/covid19sweden',
   download_url = 'https://github.com/martinbenes1996/covid19sweden/archive/0.1.0.tar.gz',
   keywords = ['2019-nCov', 'sweden', 'coronavirus', 'covid-19', 'covid-data','covid19-data'],
-  install_requires=[],
+  install_requires=['openpyxl','pandas','requests'],
   package_dir={'': '.'},
   classifiers=[
     'Development Status :: 4 - Beta',
